@@ -1,0 +1,19 @@
+{
+  "name": "coincident-oled",
+  "author": "Andrea Giammarchi",
+  "dependencies": {
+    "any-ipv4": "0.1.1",
+    "coincident": "0.10.9",
+    "johnny-five": "2.1.0",
+    "oled-font-5x7": "1.0.3",
+    "oled-js": "5.1.2",
+    "raspi-io": "11.0.0",
+    "static-handler": "0.4.2",
+    "ws": "8.13.0"
+  },
+  "version": "0.0.2",
+  "main": "index.js",
+  "keywords": ["oled", "coincident", "raspberry"],
+  "license": "ISC",
+  "description": "The electroff RapberryPi demo via coincident/server"
+}
