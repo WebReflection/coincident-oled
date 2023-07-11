@@ -11,9 +11,13 @@
     "static-handler": "0.4.2",
     "ws": "8.13.0"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
-  "keywords": ["oled", "coincident", "raspberry"],
+  "keywords": [
+    "oled",
+    "coincident",
+    "raspberry"
+  ],
   "license": "ISC",
   "description": "The electroff RapberryPi demo via coincident/server"
 }
