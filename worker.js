@@ -12,7 +12,7 @@ const options = {
 };
 
 const { board, five } = await johnny;
-const oled = await new Oled(board, five, options);
+const oled = new Oled(board, five, options);
 
 const {document} = window;
 const input = document.querySelector('input');

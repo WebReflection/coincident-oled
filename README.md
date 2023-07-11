@@ -48,7 +48,7 @@ PORT="XXXX"
 chromium --unsafely-treat-insecure-origin-as-secure=http://$IP:$PORT --kiosk http://$IP:$PORT/
 ```
 
-This will launch *Chrome/ium* browser in kiosk mode (remove `--kiosk` if not desired) allowing that network address to be handled as it was `localhost` (hence considered secure by default).
+This will launch *Chrome/ium* browser in kiosk mode (remove `--kiosk` if not desired) allowing that network address to be handled as if it was `localhost` (hence considered secure by default).
 
 Type anything in the *input* field once you start the browsing session, and either press *Enter* or the button to see the content on screen.
 
